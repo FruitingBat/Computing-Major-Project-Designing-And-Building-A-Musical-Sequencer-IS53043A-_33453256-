@@ -312,7 +312,6 @@ instr 1
 
     if ibeat != 0 then
        midion  16, int(inoteNum), int(127)
-       midiout 144, 1, int(24), int(120)
     endif
 
     ; Track 3 sequence
@@ -327,7 +326,6 @@ instr 1
 
     if ibeat != 0 then
        midion  16, int(inoteNum), int(127)
-       midiout 144, 1, int(40), int(120)
     endif
 
     ; Track 4 sequence
@@ -342,7 +340,6 @@ instr 1
 
     if ibeat != 0 then
        midion  16, int(inoteNum), int(127)
-       midiout 144, 1, int(56), int(120)
     endif
     
     ; Track 5 sequence
@@ -357,7 +354,6 @@ instr 1
 
     if ibeat != 0 then
        midion  16, int(inoteNum), int(127)
-       midiout 144, 1, int(72), int(120)
     endif
 
     ; Track 6 sequence
@@ -372,7 +368,6 @@ instr 1
 
     if ibeat != 0 then
        midion  16, int(inoteNum), int(127)
-       midiout  144, 1, int(88), int(120)
     endif
 
     ; Track 7 sequence
@@ -387,7 +382,6 @@ instr 1
 
     if ibeat != 0 then
        midion  16, int(inoteNum), int(127)
-       midiout  144, 1, int(104), int(120)
     endif
 
     ; Track 8 sequence
@@ -402,7 +396,6 @@ instr 1
 
     if ibeat != 0 then
        midion  16, int(inoteNum), int(127)
-       midiout 144, 1, int(120), int(120)
     endif
 
    gicount += 1 ;Increase global count by one
